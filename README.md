@@ -114,6 +114,8 @@ Follow-up reasoning
 Feedback analysis
 
 🧩 Core Functional Modules
+
+
 1️⃣ Interview Question Generator
 
 Generates structured interview rounds:
@@ -171,6 +173,7 @@ Confused	Asks clarifying questions, suggests roles
 Efficient	Short, crisp questions
 Chatty	Gently brings back to topic
 Edge Case	Gracefully declines or redirects
+
 5️⃣ Voice Interaction
 Speech-to-text
 
@@ -231,143 +234,46 @@ Agent: “I can provide a high-level solution but not a full production applicat
 │     └── personaLogic.js
 
 🔧 Setup Instructions
+
 1. Clone Repo
 git clone https://github.com/yourusername/interview-agent.git
 cd interview-agent
 
+
+
 2. Install Dependencies
 
-Backend
+    Backend
 
-cd backend
-npm install
+   cd backend
+    npm install
 
 
-Frontend
 
-cd frontend
-npm install
+
+   Frontend
+
+      cd frontend
+      npm install
+
+
 
 3. Environment Variables
 
-Create .env:
+    Create .env:
 
-OPENAI_API_KEY=your_key
-PORT=5000
+    OPENAI_API_KEY=your_key
+    PORT=5000
+
+
 
 4. Start Servers
 
-Backend:
+   Backend:
 
-npm start
+   npm start
 
 
-Frontend:
 
-npm run dev
 
-🎥 Demo Video Guidelines (for submission)
 
-Your 10-minute demo must include:
-
-✔️ Show the agent handling these scenarios:
-
-Confused User
-
-Efficient User
-
-Chatty User
-
-Edge-case User
-
-✔️ Demonstrate:
-
-Voice input/output
-
-Technical & HR rounds
-
-Follow-up question generation
-
-Evaluation & feedback module
-
-Persona detection
-
-✔️ Include architecture explanation:
-
-High-level diagram
-
-Why you chose OpenAI / LLM-based reasoning
-
-Importance of state management
-
-Error handling
-
-❌ No slides
-❌ Only screen + voiceover
-🧠 Design Decisions & Reasoning (For Evaluation Panel)
-1. LLM instead of rule-based
-
-Rule-based trees fail with messy user behaviour.
-LLM provides:
-
-Dynamic follow-ups
-
-Persona detection
-
-Natural conversation flow
-
-2. Prompt Engineering
-
-System prompt locks behaviour
-
-Few-shot examples for each persona
-
-Dynamic memory improves context retention
-
-3. State Management
-
-Needed because:
-
-Interviews are multi-round
-
-Follow-up questions depend on past answers
-
-Persona must persist across turns
-
-4. Voice Preferred
-
-Matches real interview environment.
-
-5. Modularity First
-
-Easily add more roles
-
-Swap or upgrade LLM with minimal code changes
-
-📈 Future Improvements
-
-Resume Parsing
-
-ATS-based scoring
-
-Custom interview training plans
-
-Local model support (Llama3, Phi-3)
-
-Multi-language interviews
-
-🎯 Conclusion
-
-This project showcases a complete end-to-end intelligent interview agent with:
-
-Deep conversational reasoning
-
-Real-world interview simulation
-
-Multi-persona adaptability
-
-Strong architecture and modularity
-
-Voice-enabled natural interaction
-
-Perfect for portfolio, hiring challenges, and GitHub demonstration.
