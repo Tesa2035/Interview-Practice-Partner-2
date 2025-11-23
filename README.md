@@ -60,18 +60,19 @@ Works with any LLM: OpenAI, Gemini, Llama, local models, etc.
 
 🏛️ System Architecture
 User
- ├── Voice Input / Text Chat
- ├── Frontend UI (React / Next.js / HTML)
- └── Backend API
-        │
-        ├── STT Module (Whisper or browser STT)
-        ├── LLM Interaction Layer
-        │     ├── Prompt Controller
-        │     ├── Persona Handler
-        │     ├── Follow-Up Engine
-        │     └── Feedback Evaluator
-        ├── State Manager (Redis or in-memory)
-        └── Logs & Analytics
+├── Voice Input / Text Chat
+├── Frontend UI (React / Next.js / HTML)
+
+└── Backend API
+│
+├── STT Module (Whisper or browser STT)
+├── LLM Interaction Layer
+│ ├── Prompt Controller
+│ ├── Persona Handler
+│ ├── Follow-Up Engine
+│ └── Feedback Evaluator
+├── State Manager (Redis or in-memory)
+└── Logs & Analytics
 
 ⚙️ Tech Stack
 Frontend
