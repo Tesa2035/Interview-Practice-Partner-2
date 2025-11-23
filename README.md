@@ -16,6 +16,9 @@ Robust technical implementation using modern LLM frameworks
 The system supports Voice Interaction (preferred) and Chat Mode, making it suitable for both desktop and mobile interfaces.
 
 🚀 Key Features
+
+
+
 ✅ 1. Mock Interview Simulation
 
 Domain-specific interview flows (e.g., Software Developer, SDE1, Retail Associate, Sales Executive).
