@@ -44,6 +44,10 @@ Confused User	Unsure what job or mode to choose
 Efficient User	Wants very fast answers, no fluff
 Chatty User	Talks about unrelated topics
 Edge-case User	Gives invalid inputs, asks impossible or irrelevant questions
+
+
+
+
 ✅ 4. Voice Interaction
 
 Speech-to-Text (Whisper API / Web Speech API)
